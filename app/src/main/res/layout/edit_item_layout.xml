@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.examplex.kirill.project1.EditItem"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/edit123"
+        layout="@layout/toolbar1"
+        />
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Name"
+        android:layout_weight="8"
+        />
+    <EditText
+        android:id="@+id/edit_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="content"
+        android:gravity="top"
+        android:layout_weight="3"
+        />
+    <EditText
+        android:id="@+id/edit_link"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="content"
+        android:layout_weight="8"
+        />
+    <Button
+        android:id="@+id/edit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Сохранить"
+        android:layout_weight="8"/>
+
+</LinearLayout>
